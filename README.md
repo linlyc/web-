@@ -65,7 +65,7 @@
 
 3.git init  //初始化本地仓库
 
-4.git add <file>   //提交文件
+4.git add <file>   //提交文件     git rm -r --cached <file>   //删除文件
 
 5.git status   //查看状态
 
@@ -81,11 +81,13 @@
 
 11.git remote   //检查是否与远程仓库连接
 
-12.git remote add origin github仓库地址  //连接远程仓库
+12.git remote remove origin  //关闭与远程仓库连接
 
-12.git pull --rebase origin master    //本地仓库更新远程仓库的最新内容
+13.git remote add origin github仓库地址  //连接远程仓库
 
-13.git push －u origin master  //提交到远程仓库
+14.git pull --rebase origin master    //本地仓库更新远程仓库的最新内容
+
+15.git push －u origin master  //提交到远程仓库
 
 注：创建.gitigonre文件 把忽略的文件名或文件夹路径写在.gitignore文件里面
 
